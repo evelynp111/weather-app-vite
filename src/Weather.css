@@ -6,7 +6,7 @@
 .Weather .weather-app {
     border: 1px solid #e9eaec;
     padding: 30px;
-    border-radius: 16px;
+    border-radius: 14px;
     background-color: white;
     box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   }
