@@ -29,3 +29,9 @@
   .Weather .current-conditions {
     padding: 20px 35px;
   }
+
+  .Weather footer {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 15px;
+  }

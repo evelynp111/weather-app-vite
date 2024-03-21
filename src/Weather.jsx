@@ -20,7 +20,8 @@ export default function Weather(){
                 <div className="col-7">
                 <div className="d-flex weather-temperature">
                     <img src="https://ssl.gstatic.com/onebox/weather/64/sunny.png" alt="sunny" />
-                <span id="temperature"><strong>73</strong>°F</span>
+                <span id="temperature"><strong>73</strong></span>
+                <span id="units-fahrenheit">°F | °C</span>
                 </div>
                 </div>
                 <div className="col-5">
@@ -32,6 +33,15 @@ export default function Weather(){
                 </div>
             </div>
             </div>
+            <footer>This project was coded by {" "}
+                <a href="https://github.com/evelynp111" target="_blank">
+                    Evelyn {" "}
+                </a>
+                    and is open-sourced on {" "}    
+                <a href="https://github.com/evelynp111" target="_blank">
+                    GitHub 
+                </a>.
+            </footer>
         </div>
     )
 }
