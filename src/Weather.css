@@ -1,6 +1,9 @@
 .Weather {
+    max-width: 600px;
     padding: 16px;
     color: rgb(135, 135, 135);
+
+    margin: 45px auto;
 }
 
 .Weather .weather-app {
@@ -9,4 +12,20 @@
     border-radius: 14px;
     background-color: white;
     box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  }
+
+  .Weather .overview {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .Weather .weather-temperature strong {
+    color: rgb(56, 56, 56);
+    font-size: 64px;
+    line-height: 1;
+    font-weight: 400;
+  }
+
+  .Weather .current-conditions {
+    padding: 20px 35px;
   }
