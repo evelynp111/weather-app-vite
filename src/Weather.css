@@ -1,9 +1,8 @@
 .Weather {
-    max-width: 600px;
+    max-width: 650px;
     padding: 16px;
     color: rgb(135, 135, 135);
-
-    margin: 45px auto;
+    margin: 15px auto;
 }
 
 .Weather .weather-app {
@@ -28,10 +27,4 @@
 
   .Weather .current-conditions {
     padding: 20px 35px;
-  }
-
-  .Weather footer {
-    text-align: center;
-    font-size: 12px;
-    margin-top: 15px;
   }

@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import axios from "axios";
 import "./Weather.css";
 
-export default function Weather(){
+export default function Weather(props){
 const[ready, setReady] = useState(false);
 const [weatherData, setWeatherData] = useState({ ready: false  });
 
@@ -54,21 +54,11 @@ if(weatherData.ready){
                 </div>
             </div>
             </div>
-            <footer>This project was coded by {" "}
-                <a href="https://github.com/evelynp111" target="_blank">
-                    Evelyn {" "}
-                </a>
-                    and is open-sourced on {" "}    
-                <a href="https://github.com/evelynp111" target="_blank">
-                    GitHub 
-                </a>.
-            </footer>
         </div>
     ) 
 }else{
     const apiKey = "fbf3f590d8fa5cdo2b6a6d68f4tc4ef2";
-    let city = "London";
-    let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=imperial`
+    let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${props.defaultCity}&key=${apiKey}&units=imperial`
     axios.get(apiUrl).then(handleResponse);
     return "Loading...";
 }
