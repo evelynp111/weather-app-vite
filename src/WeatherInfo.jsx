@@ -14,7 +14,7 @@ export default function WeatherInfo(props){
                 <div className="col-7">
                 <div className="d-flex weather-temperature">
                     <img src={props.data.icon} alt={props.data.currentCondition} />
-            <CurrentTemp fahrenheit={props.data.temperature} />
+                    <CurrentTemp fahrenheit={props.data.temperature} />
                 </div>
                 </div>
                 <div className="col-5">

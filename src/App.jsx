@@ -13,7 +13,7 @@ export default function App() {
                 Evelyn {" "}
           </a>
                 and is open-sourced on {" "}    
-          <a href="https://github.com/evelynp111" target="_blank" rel="noreferrer">
+          <a href="https://github.com/evelynp111/weather-app-vite" target="_blank" rel="noreferrer">
                 GitHub 
           </a>.
         </footer>

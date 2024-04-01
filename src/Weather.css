@@ -13,6 +13,16 @@
     box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   }
 
+  .Weather .searchBar .searchBarInput {
+    padding: 6px;
+    border-radius: 6px;
+    border: gray solid 0.5px;
+  }
+
+  .Weather .searchBar .btn{
+    margin-left: 5px;
+    }
+
   .Weather .overview {
     margin-bottom: 20px;
     text-align: center;
@@ -21,7 +31,7 @@
   .Weather .weather-temperature strong {
     color: rgb(56, 56, 56);
     font-size: 64px;
-    line-height: 1;
+    line-height: normal;
     font-weight: 400;
   }
 

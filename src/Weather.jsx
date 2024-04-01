@@ -43,7 +43,7 @@ if(weatherData.ready){
             <div className="weather-app">
                 <div className="searchBar">
                 <form className="d-flex justify-content-end mb-3" onSubmit={handleSubmit}>
-                    <input type="text" placeholder="Type a city name..." onChange={handleCityChange} />
+                    <input type="text" placeholder="Type a city name..." onChange={handleCityChange} className="searchBarInput"/>
                     <input type="submit" value="Search" className="btn btn-secondary" />
                 </form>
                 </div>
